@@ -5,8 +5,10 @@ import Section1 from './components/section1/Section1'
 const App = () => {
   return (
     <>
+    <div className='main'>
     <Section1 />
      <Section2 />
+     </div>
     </>
   )
 }
