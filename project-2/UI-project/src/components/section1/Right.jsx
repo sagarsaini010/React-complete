@@ -9,7 +9,7 @@ const Right = (props) => {
    
     {
       props.users.map((elem,indx)=>{
-        return <Container indx={indx} img={elem.img} tag={elem.tag} />
+        return <Container indx={indx} img={elem.img} tag={elem.tag} color={elem.color} />
       })
     }
   

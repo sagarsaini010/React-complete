@@ -1,4 +1,3 @@
-import React from 'react'
 import style from './Section1.module.css'
 const Container = (props) => {
   return (
@@ -12,7 +11,7 @@ const Container = (props) => {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vel omnis nisi quasi! Lorem ipsum, </p>
 
         <div className={style.btn}>
-          <a href="#">{props.tag}</a><a href="#"><i className="ri-arrow-right-line"></i></a>
+          <a href="#" style={{backgroundColor:props.color}}>{props.tag}</a><a href="#" style={{backgroundColor:props.color}}><i className="ri-arrow-right-line"></i></a>
         </div>
 
         </div>

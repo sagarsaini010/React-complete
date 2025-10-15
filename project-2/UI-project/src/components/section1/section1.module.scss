@@ -1,17 +1,17 @@
-.main{
+.main {
 
     height: 100vh;
     width: 100%;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 60px;
     height: 100px;
 
-    .logo{
+    .logo {
         background-color: black;
         color: white;
         font-size: 600;
@@ -20,71 +20,75 @@ header{
         border-radius: 200px;
     }
 
-    .right{
+    .right {
         display: flex;
         align-items: center;
         gap: 30px;
 
-        a{
+        a {
             text-decoration: none;
             color: black;
             font-size: 20px;
             font-weight: 500;
-           
-        } 
-        a:nth-last-child(1){
-                border: 1.5px solid rgba(0, 0, 0, 0.507);
-                padding: 5px 10px;
-                border-radius: 10px;
-                background-color: transparent;
-                color: rgb(0, 0, 0);
-            }
+
+        }
+
+        a:nth-last-child(1) {
+            border: 1.5px solid rgba(0, 0, 0, 0.507);
+            padding: 5px 10px;
+            border-radius: 10px;
+            background-color: transparent;
+            color: rgb(0, 0, 0);
+        }
     }
 }
 
-.center{
+.center {
     height: calc(100vh - 100px);
     width: 100%;
-   
+
     padding: 0px 30px;
     display: flex;
     justify-content: space-between;
 
-    .left{
+    .left {
         height: 100%;
         width: 30%;
-        
+
         display: flex;
         justify-content: space-between;
         flex-direction: column;
         padding: 20px 30px;
 
-        .top{
+        .top {
             display: flex;
             flex-direction: column;
             gap: 50px;
 
-            h1{
+            h1 {
                 font-size: 70px;
                 line-height: 100px;
             }
-            p{
+
+            p {
                 font-size: 20px;
                 line-height: 1.8rem;
             }
 
         }
 
-        .bottom{
+        .bottom {
             font-size: 100px;
-            
+
         }
 
     }
-    .right::-webkit-scrollbar{
+
+    .right::-webkit-scrollbar {
         display: none;
     }
-    .right{
+
+    .right {
         width: 65%;
         height: 100%;
         border-radius: 20px;
@@ -94,37 +98,41 @@ header{
         flex-wrap: nowrap;
         gap: 30px;
         overflow-x: auto;
-        .card{
+
+        .card {
             flex-shrink: 0;
             height: 90%;
             width: 30%;
             border-radius: 40px;
             overflow: hidden;
             // background-color: gray;
-           
+
             background-position: center;
             background-size: cover;
             position: relative;
-            img{
+
+            img {
                 height: 100%;
                 width: 100%;
                 object-fit: cover;
                 object-position: center;
             }
-            .cardup{
+
+            .cardup {
                 padding: 35px 35px;
                 height: 100%;
                 width: 100%;
                 position: absolute;
-                
+
                 top: 0%;
                 left: 0%;
-                
+
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                .num{
-                   
+
+                .num {
+
                     height: 35px;
                     width: 35px;
                     font-size: 20px;
@@ -135,25 +143,27 @@ header{
                     border-radius: 50%;
                 }
 
-                .bottom{
+                .bottom {
                     height: 50%;
-                   
+
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
-                    p{
+
+                    p {
                         font-size: 25px;
-                        color:rgba(255, 255, 255, 0.863);
+                        color: rgba(255, 255, 255, 0.863);
                         font-weight: 600;
                         line-height: 30px;
                     }
-                    .btn{
+
+                    .btn {
                         display: flex;
                         justify-content: space-between;
 
-                        a{
+                        a {
                             text-decoration: none;
-                            background-color: royalblue;
+
                             padding: 10px 15px;
                             border-radius: 250px;
                             font-size: 20px;
