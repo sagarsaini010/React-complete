@@ -1,0 +1,146 @@
+.main {
+  height: 100vh;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+  height: 100px;
+}
+header .logo {
+  background-color: black;
+  color: white;
+  font-size: 600;
+  font-size: 13px;
+  padding: 5px 10px;
+  border-radius: 200px;
+}
+header .right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+header .right a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+header .right a:nth-last-child(1) {
+  border: 1.5px solid rgba(0, 0, 0, 0.507);
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+}
+
+.center {
+  height: calc(100vh - 100px);
+  width: 100%;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.center .left {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+.center .left .top {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.center .left .top h1 {
+  font-size: 70px;
+  line-height: 100px;
+}
+.center .left .top p {
+  font-size: 20px;
+  line-height: 1.8rem;
+}
+.center .left .bottom {
+  font-size: 100px;
+}
+.center .right::-webkit-scrollbar {
+  display: none;
+}
+.center .right {
+  width: 65%;
+  height: 100%;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 30px;
+  overflow-x: auto;
+}
+.center .right .card {
+  flex-shrink: 0;
+  height: 90%;
+  width: 30%;
+  border-radius: 40px;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.center .right .card img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.center .right .card .cardup {
+  padding: 35px 35px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.center .right .card .cardup .num {
+  height: 35px;
+  width: 35px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+}
+.center .right .card .cardup .bottom {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.center .right .card .cardup .bottom p {
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.863);
+  font-weight: 600;
+  line-height: 30px;
+}
+.center .right .card .cardup .bottom .btn {
+  display: flex;
+  justify-content: space-between;
+}
+.center .right .card .cardup .bottom .btn a {
+  text-decoration: none;
+  background-color: royalblue;
+  padding: 10px 15px;
+  border-radius: 250px;
+  font-size: 20px;
+  color: white;
+}/*# sourceMappingURL=section1.module.css.map */
