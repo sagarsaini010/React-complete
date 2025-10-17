@@ -1,0 +1,21 @@
+@import "tailwindcss";
+*{
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-container::-webkit-scrollbar{
+ display: none;
+}
+
+
+.card{
+  background-image: url();
+  background-position: center;
+  background-size: cover;
+}
