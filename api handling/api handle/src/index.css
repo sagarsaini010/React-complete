@@ -1,0 +1,19 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  background-color: #2222;
+  height: 100%;
+}
+
+button{
+  height: fit-content;
+  padding: 10px 20px;
+  background-color: green;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+}
+button:active{
+  scale: 1.5;
+}
